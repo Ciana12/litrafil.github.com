@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    background: #FDF6EC; /* Soft beige */
+    text-align: center;
+    color: #3E2723; /* Dark brown text */
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #5C3D2E; /* Dark Mahogany */
+    padding: 15px 20px;
+    color: white;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn {
+    background: #C08552; /* Deep Gold */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+    background: #9E6D42; /* Softer Gold */
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/5/54/Baybayin_script.png'); /* Baybayin script background */
+    color: #3E2723; /* Dark brown */
+    padding: 100px 20px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 10px;
+}
+
+.feature-box {
+    background: #FFF9E3; /* Light woven texture */
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    border: 3px solid #C08552; /* Gold Filipino accent */
+}
+
+/* Stories Section */
+.stories {
+    padding: 50px 20px;
+    background: #F8E8D0; /* Soft warm beige */
+}
+
+.story-box {
+    background: white;
+    padding: 20px;
+    margin: 10px auto;
+    width: 300px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    border: 2px solid #C08552;
+}
+
+/* CTA Section */
+.cta {
+    background: #5C3D2E;
+    color: white;
+    padding: 50px;
+}
+
+.cta h2 {
+    font-size: 30px;
+}
+
+/* Footer */
+footer {
+    background: #5C3D2E;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+}
